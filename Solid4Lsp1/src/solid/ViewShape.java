@@ -1,16 +1,17 @@
 package solid;
 
+import solid.lsp.Figure;
 import solid.lsp.Rectangle;
 
 public class ViewShape {
-    private Rectangle rectangle;
+    private Figure figure;
 
-    public ViewShape(Rectangle rectangle) {
-        this.rectangle = rectangle;
+    public ViewShape(Figure figure) {
+        this.figure = figure;
     }
 
     public void showArea() {
-        System.out.print("Площадь прямоугольника равна:");
-        System.out.println(rectangle.getArea());
+        System.out.print("Площадь фигуры равна:");
+        System.out.println(figure.getArea());
     }
 }

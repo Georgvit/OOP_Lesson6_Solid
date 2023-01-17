@@ -1,6 +1,6 @@
 package solid.lsp;
 
-public class Rectangle {
+public class Rectangle implements Figure {
     private int sideA;
     private int sideB;
 
