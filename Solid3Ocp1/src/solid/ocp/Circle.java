@@ -1,6 +1,6 @@
 package solid.ocp;
 
-public class Circle implements Shape{
+public class Circle implements Shape {
     private int rad;
 
     public Circle(int rad) {
@@ -13,6 +13,6 @@ public class Circle implements Shape{
 
     @Override
     public double AreaFigure(Shape Shape) {
-        return Math.PI * Math.pow(rad,2);
+        return Math.PI * Math.pow(rad, 2);
     }
 }

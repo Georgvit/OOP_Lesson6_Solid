@@ -11,9 +11,7 @@ public class Main {
         shapes.add(new RightTriangle(2, 3));
         shapes.add(new Square(4));
         shapes.add(new Circle(5));
-        SumArea sumArea = new SumArea(shapes);
-
-        double sum = sumArea.sumArea(shapes);
+        double sum = new SumArea().sumArea(shapes);
         System.out.printf("Сумма площадей фигур равна %f \n", sum);
     }
 }

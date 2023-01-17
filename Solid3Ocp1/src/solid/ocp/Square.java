@@ -1,7 +1,8 @@
 package solid.ocp;
 
-public class Square  implements Shape {
+public class Square implements Shape {
     private int side;
+
     public Square(int side) {
         this.side = side;
     }
