@@ -14,5 +14,7 @@ public class Main {
         terminalService.payWebMoney(10);
         terminalService.payCreditCard(10);
 
+//        Для каждого направления необходим свой интерфейс
+
     }
 }
