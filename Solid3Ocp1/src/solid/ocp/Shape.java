@@ -1,4 +1,4 @@
 package solid.ocp;
 
-public interface Shape {
+public interface Shape extends AreaFigure{
 }
